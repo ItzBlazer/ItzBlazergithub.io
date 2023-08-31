@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>Minecraft</title>
+		<script> function banner(){
+			var text= confrim ("Hello!!!")
+			return text;
+		}
+		function answer(){
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+for (var i = 0; i <radio.length; i++){
+if(radio[i].value == "yes" && radio[i].checked == true) {
+selection = true;
+	 
+	 }//end if statement
+	} //end for loop
+	
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>";
+} else {
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+}
+document.getElementById("response").innerHTML = message;
+	 }//end function answer
+
+		</script>
+		<link text="text/css"rel="stylesheet"href="main.css"/>
+		<style>
+		
+		</style>
+	</head>
+
+	<body id="background"> 
+	<a onclick= "retrun banner()" href="http://simplystem.com">
+	<header id="banner"> <img src="https://images.search.yahoo.com/search/images?p=steve+from+minecraft&fr=mcafee&type=E211US1269G0&imgurl=http%3A%2F%2Fimg1.wikia.nocookie.net%2F__cb20130604003019%2Fp__%2Fprotagonist%2Fimages%2F5%2F52%2FMinecraft-steve_12.png#id=2&iurl=http%3A%2F%2Fimg1.wikia.nocookie.net%2F__cb20130604003019%2Fp__%2Fprotagonist%2Fimages%2F5%2F52%2FMinecraft-steve_12.png&action=click"/>
+	</header>
+</a>
+	<nav>
+<ul id="navmenu">
+<li class="navitem"> <a href= "about.html"> About </a> </li>
+<li class="navitem"> <a href="contacts.htm"> Contacts </a> </li>
+<li class="navitem"> <a href ="images.html"> Images </a> </li>
+</ul>
+	</nav>
+	<div class="rightside">	<h1>Mining Ores</h1>
+		<p>This website will discuss the many <span class="wrap-text"> ores that can be found while minnig  </span> in Minecraft. These can range from what level they can be mined at or what <u>resources</u> can be made by <i>crafting</i>. All in all, this website will thoroughly deescribe the <strong>vast</strong> amounts of ores in Minecraft! </p>
+	</div>
+		
+		<div class="wrap-list">
+		<ol>
+			<li class="orange">Types of Ores</li>
+			<li class="pink"> Where they can be found</li>
+			<li class="purple"> What can be made/used with the ores</li>
+		</ol>
+	</div>
+
+	<div class="leftside"> <img src="https://vignette.wikia.nocookie.net/minecraft/images/b/b3/CoalOreNew.png/revision/latest?cb=20190907231239"/>
+
+		<img src="https://vignette.wikia.nocookie.net/minecraft/images/5/50/IronOreNew.png/revision/latest?cb=20190907225306"/>
+	</div>
+	<div class="clearfloat"> 
+	</div>
+
+    <h2>Minecraft Trivia Question:</h2>
+    	<p class="paragraph"> Which ore can be use to make a bucket?</p>
+    	<div class="wrap-trivia">
+    <form> 
+    	<div id="response"> </div>
+
+    	<input type="radio" name="trivia" value="no"> Gold <br> 
+
+    	<input type="radio" name="trivia" value="no"> Diamonds <br>
+    	
+    	<input type="radio" name="trivia" value="yes"> Iron <br>
+
+    	<input type="radio" name="trivia" value="no"> Redstone <br>
+    	
+    	<input onclick="answer()" type="button" value="Click Here" id="button">
+
+	</form>
+</div>
+		
+
+		<hr />
+		  <center> Shane <a href="https://simplystem.com/code-dungeon/">My Favorite Website</a> </center>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QtsElPKywqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> Your browser does not support HTML5 video.
+</iframe>
+
+<audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+Your browser does not support HTML 5 audio.
+</audio>
+
+
+<footer id="footer" > Shane made this
+</footer>
+	</body>
+</html>
